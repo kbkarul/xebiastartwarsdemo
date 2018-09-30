@@ -1,0 +1,93 @@
+body {
+  background-color: #DCDCDC;
+}
+.headerContainer {
+  background-color: grey;
+  height: 40px;
+}
+.headerLogo {
+  height: 40px;
+  padding-top: 2px;
+}
+.headerLogoContainer {
+  padding-left: 10px;
+  padding-right: 75px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.loginContainer {
+
+}
+
+.searchFormContainer,
+.loginFormContainer {
+  width: 50%;
+  border: 1px solid #68BA8C;
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.searchHeader,
+.loginHeader {
+  margin-left: 40%;
+  font-size: 25px;
+}
+.searchFormContainer,
+.loginInputContainer {
+  padding: 20px;
+}
+.searchFormContainer div input,
+.loginInputContainer div input {
+  width: 95%;
+  height: 35px;
+}
+
+.loginInputContainer div input[type=button] {
+  background-color: #68BA8C;
+  color: #FFFFFF;
+  width: 98%;
+  height: 44px;
+  font-size: 20px;
+}
+
+.loginErrorMessage {
+  color: red;
+}
+.planetContainer {
+  padding: 10px 0px;
+  border: 1px solid antiquewhite;
+  width: 97%;
+}
+.planetSpan {
+  padding-left: 10px;
+}
+.searchCounter {
+  margin: 5px;
+}
